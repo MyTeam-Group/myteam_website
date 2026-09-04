@@ -13,8 +13,19 @@ function initials(name: string) {
 export function LeadershipCard({ leader }: { leader: Leader }) {
   return (
     <div className="flex h-full flex-col gap-4 rounded-xl border border-navy/10 bg-white p-7 shadow-sm">
-      <div className="flex h-16 w-16 items-center justify-center rounded-full bg-navy text-lg font-extrabold text-white">
-        {initials(leader.name)}
+      <div className="h-16 w-16 shrink-0 overflow-hidden rounded-full bg-navy">
+        {leader.image ? (
+          <img
+            src={leader.image}
+            alt={leader.name}
+            className="h-full w-full object-cover"
+            loading="lazy"
+          />
+        ) : (
+          <div className="flex h-full w-full items-center justify-center text-lg font-extrabold text-white">
+            {initials(leader.name)}
+          </div>
+        )}
       </div>
       <div>
         <h3 className="text-lg font-bold text-navy">{leader.name}</h3>

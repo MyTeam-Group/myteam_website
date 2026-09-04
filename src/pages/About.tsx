@@ -95,7 +95,7 @@ export function About() {
             title="The Team Behind MyTEAm"
             subtitle="Leadership information will be expanded as the team grows."
           />
-          <div className="mx-auto mt-12 max-w-sm">
+          <div className="mx-auto mt-12 grid max-w-2xl gap-6 sm:grid-cols-2">
             {leadership.map((leader) => (
               <LeadershipCard key={leader.name} leader={leader} />
             ))}

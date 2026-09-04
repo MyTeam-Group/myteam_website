@@ -146,9 +146,12 @@ export interface Leader {
   role: string
   bio?: string
   social?: string
+  /** Optional profile photo. Rendered in the circular container with object-cover. */
+  image?: string
 }
 
 // Only verified leadership. Structure supports adding members easily.
 export const leadership: Leader[] = [
-  { name: 'Jozef Ike', role: 'Founder / CEO', bio: '' },
+  { name: 'Jozef Ike', role: 'Founder / CEO', bio: '', image: '/brand/CEO.jpg' },
+  { name: 'Aganyi Innocent', role: 'Chief Operations Officer (COO)', bio: '', image: '/brand/COO.png' },
 ]
