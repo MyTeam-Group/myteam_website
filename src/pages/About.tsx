@@ -18,7 +18,7 @@ export function About() {
       <PageHeader
         label="About MyTEAm Group"
         title="Technology Built Around Real Problems."
-        subtitle="We are a technology company building software and digital products that solve modern real-world challenges."
+        subtitle="We are a technology-driven company building software and digital products across education, health, computer science, engineering, and entertainment."
       />
 
       {/* Our Story */}
@@ -26,14 +26,16 @@ export function About() {
         <Container className="max-w-3xl">
           <SectionHeader align="left" label="Our Story" title="Our Story" />
           <p className="mt-6 text-navy">
-            MyTEAm Group is a technology company focused on building software and digital products that
-            solve modern real-world challenges. We are not a single-product company — we build an
-            ecosystem of products and solutions over the long term, starting with our first flagship
-            product, Jappa.
+            MyTEAm Group is a technology-driven company focused on building software and digital
+            products that solve modern real-world challenges. We work across education technology,
+            health technology, computer science and digital technology, engineering, and
+            entertainment, and provide technology and educational consultancy. We are not a
+            single-product company — we build an ecosystem of products and solutions over the long
+            term, starting with our first flagship product, Jappa.
           </p>
           <p className="mt-4 text-muted">
             We begin with real problems, invest in research and design, and build technology that
-            creates opportunity and meaningful impact across Africa and beyond.
+            creates opportunity and meaningful impact in Nigeria, across Africa, and beyond.
           </p>
         </Container>
       </section>
@@ -53,8 +55,9 @@ export function About() {
               </div>
               <h3 className="mt-4 text-xl font-bold text-navy">Our Mission</h3>
               <p className="mt-2 text-muted">
-                We build technology that solves meaningful real-world problems, creates opportunities,
-                and connects people to better possibilities.
+                We build technology that solves meaningful real-world problems — through education,
+                technology, and innovation — creating opportunities for individuals, businesses, and
+                institutions across Nigeria, Africa, and beyond.
               </p>
             </div>
             <div className="rounded-2xl border border-navy/10 bg-white p-8">
@@ -63,8 +66,8 @@ export function About() {
               </div>
               <h3 className="mt-4 text-xl font-bold text-navy">Our Vision</h3>
               <p className="mt-2 text-muted">
-                To drive long-term, technology-led impact across Africa and beyond, building a company
-                that endures and a product ecosystem that grows.
+                To drive long-term, technology-led impact across Nigeria, Africa, and the world —
+                building a company that endures and a product ecosystem that grows.
               </p>
             </div>
           </div>

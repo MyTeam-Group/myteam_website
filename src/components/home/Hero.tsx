@@ -73,8 +73,9 @@ export function Hero() {
             Building innovative digital solutions for Africa and beyond.
           </p>
           <p className="mt-3 max-w-xl text-white/70">
-            MyTEAm Group is a technology company building innovative digital products that solve
-            real-world challenges, create opportunities, and connect people to better possibilities.
+            MyTEAm Group is a technology-driven company building software and digital products that
+            solve real challenges across education, health, computer science, engineering, and
+            entertainment.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Button to="/products" variant="accent" size="lg">

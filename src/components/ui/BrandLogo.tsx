@@ -3,6 +3,10 @@ import { brandAssets } from '../../lib/site'
 interface BrandLogoProps {
   className?: string
   loading?: 'eager' | 'lazy'
+  /** Render a horizontal lockup: logo + wordmark. Defaults to logo-only. */
+  lockup?: boolean
+  wordmark?: string
+  wordmarkClassName?: string
 }
 
 /**
@@ -15,15 +19,34 @@ interface BrandLogoProps {
  * - `w-auto object-contain` preserves the asset's aspect ratio and internal
  *   whitespace exactly — never distorted, cropped, or stretched.
  */
-export function BrandLogo({ className = '', loading = 'lazy' }: BrandLogoProps) {
+export function BrandLogo({
+  className = '',
+  loading = 'lazy',
+  lockup = false,
+  wordmark = 'MyTEAm Group',
+  wordmarkClassName = '',
+}: BrandLogoProps) {
   const src = brandAssets.myteamLogoCompact || brandAssets.myteamLogo
-
-  return (
+  const mark = (
     <img
       src={src}
       alt="MyTEAm Group logo"
       className={`w-auto object-contain ${className}`}
       loading={loading}
     />
+  )
+
+  if (!lockup) return mark
+
+  return (
+    <span className="inline-flex items-center gap-3 whitespace-nowrap">
+      {mark}
+      <span
+        className={`text-xl font-extrabold tracking-tight text-navy ${wordmarkClassName}`}
+        aria-hidden="true"
+      >
+        {wordmark}
+      </span>
+    </span>
   )
 }

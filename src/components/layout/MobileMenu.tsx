@@ -38,7 +38,7 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
   if (!open) return null
 
   return createPortal(
-    <div className="fixed inset-0 z-50 lg:hidden" id="mobile-menu">
+    <div className="fixed inset-0 z-50 xl:hidden" id="mobile-menu">
       <div className="absolute inset-0 bg-navy/50" onClick={onClose} aria-hidden="true" />
       <nav
         className="absolute inset-y-0 right-0 flex h-full w-72 max-w-[85%] flex-col gap-1 overflow-y-auto bg-white p-6 shadow-xl"

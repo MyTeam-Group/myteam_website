@@ -24,15 +24,12 @@ export function Navbar() {
         scrolled ? 'shadow-md' : 'shadow-none'
       }`}
     >
-      <Container className="flex h-16 items-center justify-between gap-4 sm:h-18">
-        <Link to="/" aria-label="MyTEAm Group home">
-          <BrandLogo
-            className="h-10 sm:h-12"
-            loading="eager"
-          />
+      <Container className="flex h-18 items-center justify-between gap-5 sm:h-20">
+        <Link to="/" aria-label="MyTEAm Group home" className="flex items-center">
+          <BrandLogo lockup className="h-12 sm:h-14" loading="eager" />
         </Link>
 
-        <nav className="hidden items-center gap-7 lg:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-7 xl:flex" aria-label="Primary">
           {navLinks.map((link) => (
             <NavLink
               key={link.to}
@@ -49,7 +46,7 @@ export function Navbar() {
           ))}
         </nav>
 
-        <div className="hidden lg:block">
+        <div className="hidden xl:block">
           <Link
             to="/products/jappa"
             className="inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-accent/90"
@@ -62,7 +59,7 @@ export function Navbar() {
         <button
           type="button"
           onClick={() => setMenuOpen(true)}
-          className="inline-flex h-10 w-10 items-center justify-center rounded-lg text-navy hover:bg-background lg:hidden"
+          className="inline-flex h-10 w-10 items-center justify-center rounded-lg text-navy hover:bg-background xl:hidden"
           aria-label="Open menu"
           aria-expanded={menuOpen}
           aria-controls="mobile-menu"

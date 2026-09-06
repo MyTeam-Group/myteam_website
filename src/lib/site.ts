@@ -10,7 +10,7 @@ export const site = {
   tagline: 'One Team. One Vision. Limitless Impact.',
   philosophy: '...with information, the world is in your hands.',
   description:
-    'MyTEAm Group is a technology company building innovative digital products that solve real-world challenges, create opportunities, and connect people to better possibilities.',
+    'MyTEAm Group is a technology-driven company building software and digital products across education, health, computer science and digital technology, engineering, and entertainment — with technology and educational consultancy for Nigeria, Africa, and beyond.',
   location: 'Lagos, Nigeria',
   // NOTE: The corporate domain is configurable metadata. It is only
   // rendered as reference text and is never used as a live external
@@ -21,7 +21,7 @@ export const site = {
   seo: {
     homeTitle: 'MyTEAm Group | Technology That Solves Real-World Problems',
     homeDescription:
-      'MyTEAm Group builds innovative digital products that solve real-world challenges across Africa and beyond.',
+      'MyTEAm Group is a technology-driven company building software and digital products across education, health, computer science, engineering, and entertainment — with technology and educational consultancy for Nigeria, Africa, and beyond.',
   },
 }
 

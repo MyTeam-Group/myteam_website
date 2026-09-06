@@ -1,10 +1,12 @@
 import {
   BrainCircuit,
-  BriefcaseBusiness,
+  Clapperboard,
+  Code,
   GraduationCap,
+  Handshake,
   HeartPulse,
-  Landmark,
   LayoutGrid,
+  Wrench,
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
@@ -25,33 +27,44 @@ export interface Solution {
 export const solutions: Solution[] = [
   {
     title: 'Education Technology',
-    description: 'Building tools that expand access to learning and opportunity across Africa.',
+    description: 'Expanding access to learning with digital tools, resources, and educational services.',
     icon: GraduationCap,
   },
   {
-    title: 'Healthcare Technology',
+    title: 'Health Technology',
     description: 'Exploring digital solutions that improve access to care and health information.',
     icon: HeartPulse,
   },
   {
-    title: 'Business Solutions',
-    description: 'Developing technology that helps businesses operate and grow.',
-    icon: BriefcaseBusiness,
+    title: 'Software & Digital Technology',
+    description: 'Computer programming, software and application development, and digital platforms.',
+    icon: Code,
   },
   {
-    title: 'AI & Data',
-    description: 'Leveraging data and artificial intelligence to solve complex, real-world problems.',
+    title: 'Artificial Intelligence & Data',
+    description: 'Applying AI and data to solve complex, real-world problems.',
     icon: BrainCircuit,
   },
   {
     title: 'Digital Platforms',
-    description: 'Creating scalable platforms that connect people, services, and opportunity.',
+    description: 'Building scalable platforms that connect people, services, and opportunity.',
     icon: LayoutGrid,
   },
   {
-    title: 'Financial Technology',
-    description: 'Exploring inclusive tools that broaden access to financial opportunity.',
-    icon: Landmark,
+    title: 'Technology Consultancy',
+    description:
+      'Technology and educational services and consultancy for individuals, businesses, and institutions.',
+    icon: Handshake,
+  },
+  {
+    title: 'Engineering Technology',
+    description: 'Engineering technology services that turn ideas into reliable, real-world solutions.',
+    icon: Wrench,
+  },
+  {
+    title: 'Digital Entertainment',
+    description: 'Creating digital entertainment products that inform, engage, and entertain.',
+    icon: Clapperboard,
   },
 ]
 

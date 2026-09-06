@@ -5,8 +5,8 @@ import { Button } from '../ui/Button'
 
 const points = [
   { title: 'Our Story', text: 'MyTEAm Group began with a simple conviction: technology should solve real problems that people actually face.' },
-  { title: 'Our Mission', text: 'We build technology that solves meaningful real-world problems across Africa and beyond.' },
-  { title: 'Our Vision', text: 'To create long-term, technology-driven impact across Africa and beyond.' },
+  { title: 'Our Mission', text: 'We build technology that solves meaningful real-world problems across education, technology, and innovation.' },
+  { title: 'Our Vision', text: 'To create long-term, technology-driven impact across Nigeria, Africa, and the world.' },
 ]
 
 export function AboutTeaser() {

@@ -43,9 +43,10 @@ export function Innovation() {
         <Container className="max-w-3xl text-center">
           <h2 className="text-2xl font-extrabold text-navy sm:text-3xl">A Long-Term Technology Company</h2>
           <p className="mt-4 text-muted">
-            We continuously explore opportunities to build technology around meaningful problems.
-            What we announce publicly reflects what we are genuinely working on — early stages remain
-            internal until they are ready.
+            We continuously explore opportunities to build technology around meaningful problems —
+            across education, health, computer science and digital technology, engineering, and
+            entertainment. What we announce publicly reflects what we are genuinely working on;
+            early stages remain internal until they are ready.
           </p>
           <p className="mt-4 text-muted">
             Jappa is where we started. It is the flagship product of MyTEAm Group — and the platform
