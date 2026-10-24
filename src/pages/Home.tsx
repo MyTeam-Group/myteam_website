@@ -1,6 +1,7 @@
 import { site } from '../lib/site'
 import { usePageMeta } from '../lib/hooks/usePageMeta'
 import { Hero } from '../components/home/Hero'
+import { FounderWelcome } from '../components/home/FounderWelcome'
 import { WhatWeDo } from '../components/home/WhatWeDo'
 import { FeaturedProduct } from '../components/home/FeaturedProduct'
 import { HowWeBuild } from '../components/home/HowWeBuild'
@@ -16,6 +17,7 @@ export function Home() {
   return (
     <>
       <Hero />
+      <FounderWelcome />
       <WhatWeDo />
       <FeaturedProduct />
       <HowWeBuild />

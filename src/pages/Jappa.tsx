@@ -104,7 +104,35 @@ export function Jappa() {
             />
           </div>
           <div className="mt-10">
-            <JappaFeature />
+            <div className="mx-auto max-w-md">
+              <a
+                href="/brand/Jappa.jpg"
+                target="_blank"
+                rel="noreferrer"
+                className="block overflow-hidden rounded-2xl border border-navy/10 bg-white shadow-sm focus-visible:outline-offset-4"
+                aria-label="View the Jappa study-abroad opportunities graphic at full size"
+              >
+                <img
+                  src="/brand/Jappa.jpg"
+                  alt="Jappa study-abroad opportunities graphic"
+                  width={720}
+                  height={1080}
+                  className="h-auto w-full object-contain"
+                  loading="lazy"
+                />
+              </a>
+              <a
+                href="/brand/Jappa.jpg"
+                target="_blank"
+                rel="noreferrer"
+                className="mt-3 inline-flex text-sm font-semibold text-navy underline decoration-accent decoration-2 underline-offset-4 hover:text-accent"
+              >
+                View the full-size graphic
+              </a>
+            </div>
+            <div className="mt-10">
+              <JappaFeature />
+            </div>
           </div>
         </Container>
       </section>

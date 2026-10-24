@@ -167,4 +167,5 @@ export interface Leader {
 export const leadership: Leader[] = [
   { name: 'Jozef Ike', role: 'Founder / CEO', bio: '', image: '/brand/CEO.jpg' },
   { name: 'Aganyi Innocent', role: 'Chief Operations Officer (COO)', bio: '', image: '/brand/COO.png' },
+  { name: 'Gabriel Benedict', role: 'Chief Technology Officer (CTO)', image: '/brand/CTO.jpg' },
 ]
